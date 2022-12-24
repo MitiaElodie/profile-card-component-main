@@ -5,31 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Profile card component</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <div class="card__container">
+      <div class="card__content">
+        <div class="card__header"/>
+        <div class="card__user-info">
+          <img src="./images/image-victor.jpg" class="card__img" alt="User image profile"/>
+          <span class="card__name">Victor Crest</span>
+          <span class="card__age">26</span>
+          <span class="card__city">London</span>
+        </div>
+        <div class="card__account-info-container">
+          <div class="card__follower-info">
+            <span class="card__count">80K</span>
+            <span class="card__info">Followers</span>
+          </div>
+          <div class="card__like-info">
+            <span class="card__count">803K</span>
+            <span class="card__info">Likes</span>
+          </div>
+          <div class="card__photo-info">
+            <span class="card__count">1.4K</span>
+            <span class="card__info">Photos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/MitiaElodie">Anjara Mitia Elodie</a>.
+    </div>
+  </footer>
 </body>
 </html>
