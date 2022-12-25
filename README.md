@@ -38,7 +38,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - SCSS
 ### Useful resources
 
-- [Controlling background-images | CSS Tutorial](https://www.youtube.com/watch?v=3T_Jy1CqH9k) - This helped me to understand many properties associated with the background.
+- [Controlling background-images | CSS Tutorial](https://www.youtube.com/watch?v=3T_Jy1CqH9k) - This helped me to understand many properties associated to the background.
 
 ## Author
 
