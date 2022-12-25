@@ -13,7 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsl(185deg, 75%, 39%);
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-top.svg), hsl(185deg, 75%, 39%);
+  background-position: -300px -300px, 600px 600px;
+  background-repeat: no-repeat;
   color: hsl(227deg, 10%, 46%);
   font-size: 18px;
 }

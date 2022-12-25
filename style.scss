@@ -21,7 +21,9 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: $dark-cyan;
+      background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-top.svg), $dark-cyan;
+      background-position: -300px -300px, 600px 600px;
+      background-repeat: no-repeat;
       color: $dark-grayish-blue;
       font-size: 18px;
    }
