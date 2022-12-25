@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
@@ -13,23 +15,25 @@
   <main>
     <div class="card__container">
       <div class="card__content">
-        <div class="card__header"/>
+        <div class="card__header"></div>
         <div class="card__user-info">
           <img src="./images/image-victor.jpg" class="card__img" alt="User image profile"/>
-          <span class="card__name">Victor Crest</span>
-          <span class="card__age">26</span>
-          <span class="card__city">London</span>
+          <p class="card__user">
+            <span class="card__name">Victor Crest</span>
+            <span class="card__age">26</span>
+          </p>
+          <p class="card__city">London</p>
         </div>
-        <div class="card__account-info-container">
-          <div class="card__follower-info">
+        <div class="card__stat-container">
+          <div class="card__stat-info">
             <span class="card__count">80K</span>
             <span class="card__info">Followers</span>
           </div>
-          <div class="card__like-info">
+          <div class="card__stat-info">
             <span class="card__count">803K</span>
             <span class="card__info">Likes</span>
           </div>
-          <div class="card__photo-info">
+          <div class="card__stat-info">
             <span class="card__count">1.4K</span>
             <span class="card__info">Photos</span>
           </div>

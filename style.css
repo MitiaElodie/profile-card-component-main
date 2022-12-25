@@ -1,3 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card__container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(185deg, 75%, 39%);
+  color: hsl(227deg, 10%, 46%);
+  font-size: 18px;
+}
+.card__content {
+  margin: 20px;
+  border-radius: 10px;
+  width: min(100%, 350px);
+  background-color: white;
+  overflow: hidden;
+}
+.card__header {
+  height: 150px;
+  background-image: url("./images/bg-pattern-card.svg");
+}
+.card__img {
+  border-radius: 100%;
+  border: 4px solid white;
+}
+.card__stat-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card__stat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__name, .card__count {
+  font-weight: 700;
+  color: hsl(229deg, 23%, 23%);
+}
+.card__stat-container {
+  border-top: 1px solid hsla(227deg, 10%, 46%, 0.14);
+  padding: 5px 0px;
+}
+.card__stat-info {
+  padding: 20px;
+}
+.card__info {
+  font-size: 0.7em;
+}
+.card__user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.card__user {
+  margin-top: 10px;
+}
+.card__city {
+  margin-top: 10px;
+  font-size: 0.7em;
+}
+.card__img {
+  margin-top: -52px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
